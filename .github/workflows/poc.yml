@@ -1,0 +1,9 @@
+name: POC
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ATTACKER WORKFLOW EXECUTED"
